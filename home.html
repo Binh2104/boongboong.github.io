@@ -7,12 +7,15 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="sp.css">
-  
-
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 </head>
-<body> 
-  
-    <nav class="navbar navbar-default" role="navigation" style="background-color: black;">
+<body>   
+    <div class="page-header">
+      <h1 class="logoBinh">Bình An </h1><p class="an"> <small >Thương hiệu lâu năm</small></p></h1>
+    </div>
+    
+    <nav class="navbar navbar-default" role="navigation" style="background-color: ;">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
@@ -21,17 +24,14 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">Title</a>
+            <a class="navbar-brand" href="#">Menu</a>
         </div>
     
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse navbar-ex1-collapse">
-            <ul class="nav navbar-nav">
-                <li><a href="#">Link</a></li>
-            </ul>
             <form class="navbar-form navbar-left" role="search">
                 <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Search">
+                  <input type="text" class="form-control" placeholder="Tìm kiếm sản phẩm">
                 </div>
             </form>
             <ul class="nav navbar-nav navbar-right">
@@ -60,7 +60,8 @@
         </ol>
         <div class="carousel-inner">
             <div class="item active">
-                 <img data-src="holder.js/900x500/auto/#666:#6a6a6a/text:Second slide" alt="Second slide" src="baner1.png"> 
+                 <img data-src="holder.js/900x500/auto/#666:#6a6a6a/text:Second slide" alt="Second slide" src="http://www.uplevo.com/img/designbox/mau-anh-bia-facebook-cua-uplevo-4.jpg
+                "> 
             </div>
             <div class="item">
                 <img data-src="holder.js/900x500/auto/#666:#6a6a6a/text:Second slide" alt="Second slide" src="baner2.png">
@@ -68,13 +69,15 @@
             <div class="item">
                 <img data-src="holder.js/900x500/auto/#555:#5a5a5a/text:Third slide" alt="Third slide" src="baner3.png">
             </div>
+            <div class="item">
+                <img data-src="holder.js/900x500/auto/#555:#5a5a5a/text:Fourd slide" alt="Third slide" src="baner1.png">
+            </div>
         </div>
         <a class="left carousel-control" href="#carousel-id" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
         <a class="right carousel-control" href="#carousel-id" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
     </div>
 </div>
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    
    <script> $('#carousel-id').carousel({
         interval: 2000
     })</script>
@@ -83,34 +86,115 @@
        
         <h2 class="text-center">Sản phẩm nổi bật </h2>
         
-        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+        <div class="row">
+        <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
             <div class="itemss">
-            <img src="img/sp1.jpg" alt="" class="img-responsive" id="hii"></div>
-            <a class="text-center btn btn-block btn-primary" >Áo sơ mi loại 1</a> 
+            <img src="img/sp3.jfif" alt="" class="img-responsive" id="hii"></div>
+            <a class="text-center btn btn-info btn-block" >Áo sơ mi loại 1</a> 
             <h4 class="text-center">99.000 VND</h4>
         </div>
-         <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 ">
+         <div class="cold-md-3 col-sm-3 col-lg-3 col-xs-6">
              <div class="itemss">
              <img src="img/sp2.jpg" alt="" class="img-responsive" id="hii" ></div>
             <a class="text-center  btn btn-block btn-primary"">Áo sơ mi công sở</a>
             <h4 class="text-center">200.000 VND</h4>
         </div>
-         <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+         <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
              <div class="itemss">
              <img src="img/sp3.jfif" alt="" class="img-responsive" id="hii"></div>
             <a class="text-center  btn btn-block btn-primary"">Áo phông unisex</a>
             <h4 class="text-center">100.000 VND</h4>
         </div>
-         <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3"class="sp" >
+         <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3"class="sp" >
              <div class="itemss">
-             <img src="img/sp4.jfif" alt="" class="img-responsive" id="hii"> </div>
+             <img src="img/sp1.jpg" alt="" class="img-responsive" id="hii"> </div>
             <a class="text-center  btn btn-block btn-primary"">Áo nữ công sở</a>
             <h4 class="text-center">456.000 VND</h4>
         </div>
+        <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3"class="sp" >
+            <div class="itemss">
+            <img src="img/sp1.jpg" alt="" class="img-responsive" id="hii"> </div>
+           <a class="text-center  btn btn-block btn-primary"">Áo nữ công sở</a>
+           <h4 class="text-center">456.000 VND</h4>
+       </div>
+       <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3"class="sp" >
+        <div class="itemss">
+        <img src="img/sp1.jpg" alt="" class="img-responsive" id="hii"> </div>
+       <a class="text-center  btn btn-block btn-primary"">Áo nữ công sở</a>
+       <h4 class="text-center">456.000 VND</h4>
+   </div>
+   <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3"class="sp" >
+    <div class="itemss">
+    <img src="img/sp1.jpg" alt="" class="img-responsive" id="hii"> </div>
+   <a class="text-center  btn btn-block btn-primary"">Áo nữ công sở</a>
+   <h4 class="text-center">456.000 VND</h4>
+</div>
+<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3"class="sp" >
+    <div class="itemss">
+    <img src="img/sp1.jpg" alt="" class="img-responsive" id="hii"> </div>
+   <a class="text-center  btn btn-block btn-primary"">Áo nữ công sở</a>
+   <h4 class="text-center">456.000 VND</h4>
+</div>
+<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3"class="sp" >
+    <div class="itemss">
+    <img src="img/sp1.jpg" alt="" class="img-responsive" id="hii"> </div>
+   <a class="text-center  btn btn-block btn-primary"">Áo nữ công sở</a>
+   <h4 class="text-center">456.000 VND</h4>
+</div>
+<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3"class="sp" >
+    <div class="itemss">
+    <img src="img/sp1.jpg" alt="" class="img-responsive" id="hii"> </div>
+   <a class="text-center  btn btn-block btn-primary"">Áo nữ công sở</a>
+   <h4 class="text-center">456.000 VND</h4>
+</div>
+<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3"class="sp" >
+    <div class="itemss">
+    <img src="img/sp1.jpg" alt="" class="img-responsive" id="hii"> </div>
+   <a class="text-center  btn btn-block btn-primary"">Áo nữ công sở</a>
+   <h4 class="text-center">456.000 VND</h4>
+</div>
+         </div>
+    </div>
+    <hr>
+    <div class="container">
+            <ul class="pagination">
+                <li><a href="#">&laquo;</a></li>
+                <li><a href="#" class="active">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5</a></li>
+                <li><a href="#">&raquo;</a></li>
+            </ul>
+    </div>
+    <div class="container">
         
+        <div role="tabpanel">
+            <!-- Nav tabs -->
+            <ul class="nav nav-tabs" role="tablist">
+                <li role="presentation" class="active">
+                    <a href="#about" aria-controls="home" role="tab" data-toggle="tab">About me</a>
+                </li>
+                <li role="presentation">
+                    <a href="#tab" aria-controls="tab" role="tab" data-toggle="tab">Contact</a>
+                </li>
+            </ul>
+        
+            <!-- Tab panes -->
+            <div class="tab-content">
+                <div role="tabpanel" class="tab-pane active" id="about">
+                    <h2>About me</h2>
+                    <p> Bình An là công ty được thành lập vào năm 2002 do nhà đầu tư trẻ Tràn Nhữ Bình phát triển. Với sự cố gắng nỗ lực hết mình Trần Nhữ Bình đã đứa công ty vườn tâm quốc tế.Chỉ trong vài năm đầu Bình An đã trở thành đại diện cho Việt Nam tham gia đại hội ceo quốc tế hàng đầu. Năm 2021 Bình An đã vinh dự đứng đầu trong BXH top những công ty thành công nhất thế giới</p>
+                </div>
+                <div role="tabpanel" class="tab-pane" id="tab">
+                    <p> <i> Mọi thắc mắc xin gửi vào hòm thư <a href="mailto:nhubinh2104@gmail.com">nhubinh2104@gmail.com</a> </i></p>
+                </div>
+            </div>
+        </div>
+         
     </div>
     
-</div>
+    
 </div>
 </body>
 </html>
